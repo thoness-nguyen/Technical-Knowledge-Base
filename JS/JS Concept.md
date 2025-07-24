@@ -71,3 +71,28 @@ API (Application Programming Interface) allows different software systems to com
 
 ## ✅ Use Case
 Used in frontend or backend applications to interact with a database, CRM, ERP, etc.
+
+---
+
+# 🧠 JS Concept: identity mapping --> create new copy array
+
+## 🔹 Concept
+- .map() creates a new array by applying a function to each element.
+- i => i is the identity function: it just returns each item as-is.
+- So array.map(i => i) returns a shallow copy of the original array.
+
+## 💡 Simple Example:
+```ts
+const newArray = oldArray.map(i => i);
+
+const transformed = items.map(i => i); // maybe add logic later
+
+items.map(i => ({
+  ...i,
+  status: "active"
+}));
+
+```
+
+## ✅ Use Case
+You want to trigger change detection, add new array base on the current one.
