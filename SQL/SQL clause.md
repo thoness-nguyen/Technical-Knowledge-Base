@@ -1,7 +1,3 @@
-I see what happened 👍 — in your screenshot, the Markdown wasn’t properly separated into sections, so everything after START WITH collapsed into one big code block.
-
-Here’s the fixed .md version where each concept has its own code block and explanation:
-
 # Hierarchical Queries
 
 <img width="610" height="98" alt="image" src="https://github.com/user-attachments/assets/5d9180ff-cfa8-46b4-8115-6353d59dc455" />
